@@ -1,0 +1,55 @@
+
+
+#ana_baslik{
+	
+	border-bottom: 2px solid #99CCFF;
+	text-align:center;
+}
+#ana_kisim{
+	
+	margin: 15px auto;
+	padding: 10px;
+	
+	
+}
+#ana_makale li{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:25px;
+	list-style:none;
+	font: 18px Calibri;
+	color:black;
+
+}
+#alt_kisim{
+	color:white;
+	background-color:#99CCFF;
+	padding:20px;
+	margin:20px;
+}
+.style1{
+	color:#00FF00;
+	font:bold;
+}
+
+
+.style2 li{
+	
+	padding-bottom:10px;
+	padding-left:25px;
+	font: 18px Calibri;
+	color:black;
+
+}
+.style3 li{
+	padding:1px;
+	list-style:none;
+	font: 18px Calibri;
+	color:black;
+	
+}
+.style3{
+	font: 18px Calibri;
+	color:black;
+	
+}

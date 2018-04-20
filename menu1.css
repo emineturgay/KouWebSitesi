@@ -1,0 +1,106 @@
+.panel-body#bilim_footer{
+
+	background-color:pink;
+	
+}
+body{
+	background:gray;
+}
+.panel div #cerceve_duzenle{
+	
+
+-webkit-border-radius:30px;
+  -webkit-border-radius:30px;
+ -moz-border-radius:30px;
+ border-radius:30px;
+ 
+ /*aşagıdaki  kod  borderda  beyazdan siyaha geçiş sağlar vermeyi saglar*/
+	background:-webkit-radial-gradient(circle,white,black);
+	background:-moz-radial-gradient(circle,white,black);
+	background:radial-gradient(circle,white,black);
+}
+
+ .col-sm-8#cerceve{
+#background:#696969;
+border:2px solid #4f4f4f;
+padding:20px;
+-webkit-border-radius:20px;
+  -webkit-border-radius:20px;
+ -moz-border-radius:20px;
+ border-radius:20px;
+ /*aşagıdaki kod bordıra  yansıma veriyor  fakat  bu özellik  safari  chorame  ve firefox tarayıcılarında çalışıyor*/
+-webkit-box-reflect: below -5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(255, 255, 255, 0.296875)));
+
+/*aşagıdaki  kod  border golge vermeyi saglar*/
+-webkit-box-shadow: #4f4f4f 15px 15px 15px;
+	-moz-box-shadow: #4f4f4f 15px 15px 15px;
+	box-shadow: #4f4f4f 15px 15px 15px;
+	
+	/*aşagıdaki  kod  borderda  beyazdan siyaha geçiş sağlar vermeyi saglar*/
+	background:-webkit-radial-gradient(circle,white,black);
+	background:-moz-radial-gradient(circle,white,black);
+	background:radial-gradient(circle,white,black);
+  }
+  
+.panel#slayt{
+	margin-right:50px;
+	background:gray;
+	border:2px solid gray;
+	-webkit-box-shadow: #1f1f14 10px 10px 10px;
+	-moz-box-shadow: #1f1f14 10px 10px 10px;
+	box-shadow: #1f1f14 10px 10px 10px;
+}
+.panel#arka_plan{
+	
+     height:400px;
+	 margin-top:120px;
+	 border:2px solid gray;
+	background: url("arka_plan.jpg") repeat center center ;
+	background-attachment:scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	background-size: cover;
+	-webkit-box-shadow: #1f1f14 10px 10px 10px;
+	-moz-box-shadow: #1f1f14 10px 10px 10px;
+	box-shadow: #1f1f14 10px 10px 10px;
+}
+
+.panel-group#serit{
+	background:blue;
+	-webkit-box-shadow: rgba(77,77,255,0.5) 10px 10px 10px;
+	-moz-box-shadow: rgba(77,77,255,0.5) 10px 10px 10px;
+	box-shadow: rgba(77,77,255,0.5) 10px 10px 10px;
+	margin-top:120px;
+}
+
+.dropdown-menu li {background: #000066;color:white;}
+.dropdown-menu li a{color:white;}
+.navbar li a:hover{background:  #4D70B8;}
+.dropdown-menu li a:hover{background:  #4D70B8;color:white;}
+.nav li a{background:#000033;}
+
+.navbar-toggle{
+  # padding-left:70px;
+   #background-color:#000066;
+   #color:black;
+}
+/*
+.sayfa#misyon{
+	-webkit-box-shadow: #1f1f14 10px 10px 10px;
+	-moz-box-shadow: #1f1f14 10px 10px 10px;
+	box-shadow: #1f1f14 10px 10px 10px;
+}
+.sayfa#vizyon{
+	-webkit-box-shadow: #1f1f14 10px 10px 10px;
+	-moz-box-shadow: #1f1f14 10px 10px 10px;
+	box-shadow: #1f1f14 10px 10px 10px;
+}
+.sayfa{
+	-webkit-box-shadow: #1f1f14 10px 10px 10px;
+	-moz-box-shadow: #1f1f14 10px 10px 10px;
+	box-shadow: #1f1f14 10px 10px 10px;
+}
+*/
+
+
+
